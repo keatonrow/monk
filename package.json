@@ -1,22 +1,19 @@
 {
-  "name": "monk",
-  "version": "0.7.2",
-  "main": "lib/monk.js",
-  "tags": [
-    "mongodb",
-    "mongo",
-    "driver"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/LearnBoost/monk.git"
-  },
-  "dependencies": {
-    "mongoskin": "0.4.4",
-    "debug": "*"
-  },
-  "devDependencies": {
-    "mocha": "*",
-    "expect.js": "0.1.x"
+    "name": "monk"
+  , "version": "0.7.2"
+  , "main": "lib/monk.js"
+  , "tags": ["mongodb", "mongo", "driver"]
+  , "repository": { "type": "git", "url": "git://github.com/LearnBoost/monk.git" }
+  , "dependencies": {
+        "mongoskin": "0.4.4"
+      , "debug": "*"
+      , "mpromise": "~0.4.1"
+    }
+  , "devDependencies": {
+        "mocha": "*"
+      , "expect.js": "0.1.x"
+    }
+  , "scripts": {
+        "test": "make test"
   }
 }
